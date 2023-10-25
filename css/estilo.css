@@ -1,0 +1,50 @@
+*{margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: gainsboro;
+}
+div.principal{
+    background-color: white;
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid gainsboro;
+    padding: 20px;
+}
+div.imagen{
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+div.imagen img{
+    max-width: 100%;
+    display: block;
+}
+table{ 
+    width: 100%;
+    text-align: center;
+    
+}
+tr.Titulo td{
+    border-top: 2px solid rgb(56, 46, 79);
+    border-bottom: 2px solid rgb(56, 46, 79);
+}
+td{
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+    
+}
+div.principal td:hover{
+    background-color: red;
+}
+div.table{
+    border-top: 10px;
+}
+div.profesores{
+    background-color: white;
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid gainsboro;
+    padding: 20px;
+    
+}
